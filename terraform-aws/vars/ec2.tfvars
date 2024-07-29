@@ -1,20 +1,20 @@
 # EC2 Instance Variables
 region         = "us-west-2"
-ami_id         = "ami-03fd0aa14bd102718"
+ami_id         = "ami-0aff18ec83b712f05"
 instance_type  = "t4g.micro"
-key_name       = "techiescamp"
+key_name       = "add keyname"
 instance_count = 1
 volume-size = 20
 
 # VPC id
-vpc_id  = "vpc-0a5ca4a92c2e10163"
-subnet_ids     = ["subnet-058a7514ba8adbb07"]
+vpc_id  = "add a vpc"
+subnet_ids     = ["add a subnet"]
 
 # Ec2 Tags
 name        = "prometheus-stack"
-owner       = "techiescamp"
+owner       = "devops-mastery"
 environment = "dev"
-cost_center = "techiescamp-commerce"
+cost_center = "devops-project"
 application = "monitoring"
 
 # CIDR Ingress Variables
