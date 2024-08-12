@@ -1,7 +1,7 @@
 # EC2 Instance Variables
 region         = "us-west-2"
 ami_id         = "ami-0aff18ec83b712f05"
-instance_type  = "t4g.micro"
+instance_type  = "t2.large"
 key_name       = "add keyname"
 instance_count = 1
 volume-size = 20
